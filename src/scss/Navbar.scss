@@ -1,0 +1,40 @@
+nav.nav {
+    width: 100%;
+    height: auto;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    background: var(--color-primary);
+
+    ul {
+        height: 100%;
+        list-style: none;
+        
+        li {
+            margin: 0 1rem;
+
+
+            a {
+                color: var(--color-links-nav);
+                text-decoration: none;
+
+                &:hover {
+                    color: rgb(150, 150, 150);
+                }
+            }
+
+            .btn-contato-cta {
+                background: var(--color-tertiary);
+                border-radius: var(--border-radius);
+                padding: var(--padding-botoes-cta);
+                border: var(--border);
+                transition: 0.5s ease;
+
+                &:hover {
+                    color: var(--color-links-nav);
+                    background: var(--color-secondary);
+                }
+            }
+        }
+    }
+}
