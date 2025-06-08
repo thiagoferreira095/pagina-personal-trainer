@@ -4,7 +4,7 @@ import Logo from '../assets/img/logo-navbar.png';
 
 function Navbar() {
     return (
-        <nav className="nav">
+        <nav className="nav fixed-top">
             <div className="container">
                 <div className="row">
                     <div className="col-6 col-sm-6 col-lg-6">
