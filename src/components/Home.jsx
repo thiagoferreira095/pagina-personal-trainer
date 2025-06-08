@@ -3,7 +3,7 @@ import '../scss/Home.scss';
 
 function Home() {
     return (
-        <section className="home-section d-flex align-items-center">
+        <section className="home-section d-flex align-items-center" id="home">
             <div className="container">
                 <div className="row">
                     <div className="box-content col-12 col-sm-12 col-lg-6 d-flex flex-column justify-content-center">

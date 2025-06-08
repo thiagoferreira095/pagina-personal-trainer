@@ -8,7 +8,7 @@ import { faHeadset } from '@fortawesome/free-solid-svg-icons';
 
 function Beneficio() {
     return (
-        <section className="beneficio-section d-flex align-items-center">
+        <section className="beneficio-section d-flex align-items-center" id="benefit">
             <div className="container">
                 <div className="beneficio-content">
                     <h3 className="pt-5">Temos <span style={{color: 'var(--color-secondary)'}}>benefícios</span> incríveis para <span style={{color: 'var(--color-secondary)'}}>você!</span></h3>                

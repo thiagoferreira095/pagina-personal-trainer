@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import Beneficio from './components/Beneficio.jsx';
+import Planos from './components/Planos.jsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Home />
         <Beneficio />
+        <Planos />
       </main>
     </>
   );
